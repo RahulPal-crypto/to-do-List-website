@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+   <!-- Navbar -->
+   <header class="navbar">
+    <h1>My To-Do List</h1>
+    <nav>
+      <ul>
+        <li><a href="../home/index.html">Home</a></li>
+        <li><a href="../about/index.html">About</a></li>
+        <li><a href="../contact/index.html">Contact</a></li>
+        <li><a href="../todo/index.html">To-do</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- To-Do Section -->
+  <section class="todo-container">
+    <h2>Manage Your Tasks</h2>
+    <div class="todo-input-container">
+      <input type="text" id="taskInput" placeholder="Enter a new task..." />
+      <button id="addTaskButton" class="btn">Add Task</button>
+    </div>
+    <ul id="taskList" class="task-list">
+      <!-- Tasks will be dynamically added here -->
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 My To-Do App. All rights reserved.</p>
+  </footer>
+</body>
+</html>
