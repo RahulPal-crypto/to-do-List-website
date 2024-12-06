@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="contact.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1>My To-Do App</h1>
+    <nav>
+      <ul>
+        <li><a href="../home/index.html">Home</a></li>
+        <li><a href="../todo/index.html">To-Do</a></li>
+        <li><a href="../about/index.html" >About</a></li>
+        <li><a href="../contact/index.html" >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-container">
+    <div class="contact-header">
+      <h2>Get in Touch</h2>
+      <p>Have questions or need assistance? We'd love to hear from you!</p>
+    </div>
+    <div class="contact-content">
+      <div class="contact-details">
+        <h3>Contact Information</h3>
+        <p>Email: support@todoapp.com</p>
+        <p>Phone: +1-234-567-890</p>
+        <p>Address: 123 Yellow Lane, Task City</p>
+      </div>
+      <form id="contactForm" class="contact-form">
+        <span></span>
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 My To-Do App. All rights reserved.</p>
+  </footer>
+</body>
+</html>
